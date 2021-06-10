@@ -43,7 +43,7 @@ do {
 while (a >= 1);
 
 console.log("For...Of Loop: Array log")
-let myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-for (let logNum of myArray) {
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (let logNum of numbers) {
     console.log(logNum);
 }
